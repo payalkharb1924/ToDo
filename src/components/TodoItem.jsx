@@ -42,6 +42,7 @@ function TodoItem({ todo }) {
           autoFocus
           onChange={(e) => setTodoMsg(e.target.value)}
           hidden={isEditable ? false : true}
+          className="flex-1 mr-2 min-w-0 rounded border border-gray-400 px-2 py-1"
         />
         <div className="flex gap-2">
           <div className="flex hover:text-zinc-700">
