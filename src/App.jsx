@@ -49,7 +49,7 @@ function App() {
       >
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="text-4xl sm:text-5xl md:text-8xl text-white mt-6 font-bold text-center bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-20 border border-gray-100 rounded-2xl shadow-lg p-4">
-          TODO World
+          Welcome to TODO World
         </div>
         <div className="flex flex-col md:flex-row w-full flex-1 justify-center items-center mt-8">
           <div className="w-full md:w-1/2 h-auto md:h-3/4 flex justify-center items-center p-4">
