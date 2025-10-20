@@ -17,9 +17,9 @@ function TodoItem({ todo }) {
 
   return (
     <div
-      className={`cursor-pointer overflow-hidden 
-      w-full h-12 rounded-2xl shadow-lg flex gap-3 justify-between items-center px-4 bg-opacity-10 border-b border-gray-100/20 text-gray-100/20 ${
-        todo.completed ? "bg-gray-100/15 line-through" : ""
+      className={`cursor-pointer overflow-hidden
+      w-full h-12 rounded-2xl shadow-lg flex gap-3 justify-between items-center px-4 bg-opacity-10 border-b border-gray-100 text-gray-100 ${
+        todo.completed ? "bg-gray-100 line-through" : ""
       }`}
     >
       <input

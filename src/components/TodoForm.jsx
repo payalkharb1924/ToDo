@@ -16,19 +16,17 @@ function TodoForm() {
           onSubmit={handleSubmit}
           className="flex w-full flex-col items-center gap-8"
         >
-          <h1 className="text-gray-100/20 text-4xl font-extrabold">
-            Add a To Do
-          </h1>
+          <h1 className="text-gray-100 text-4xl font-extrabold">Add a To Do</h1>
           <input
             type="text"
             placeholder="Write here..."
             value={todo}
             onChange={(e) => setTodo(e.target.value)}
-            className="w-full h-1/2 p-3 text-white max-w-3xl border border-gray-100/20 rounded-sm"
+            className="w-full h-1/2 p-3 text-white max-w-3xl border border-gray-100 rounded-sm"
           />
           <button
             type="submit"
-            className="w-1/2 h-18 rounded-md bg-gray-100/20 text-xl text-zinc-800 font-bold hover:bg-transparent hover:text-gray-100/20 hover:border cursor-pointer"
+            className="w-1/2 h-18 rounded-md bg-gray-100 text-xl text-zinc-800 font-bold hover:bg-transparent hover:text-gray-100 hover:border cursor-pointer"
           >
             Add
           </button>
